@@ -7,11 +7,4 @@ export class Pagamento {
         this.desconto = new TipoDoPagamento(this.payment, this.value);
         this.total = this.desconto.getValue(); 
     }
-} /*
-
-O resultado esperado deve ser:
-```
-9,50 + 6,00
-"R$ 15,96"
-```
-*/ 
+} 

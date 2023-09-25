@@ -1,7 +1,7 @@
 import { Item } from "./item-do-cardapio.js"
 export class Cardapio {
     constructor() {
-        this.itens = [
+        this.produtos = [
             new Item("cafe", "Café", "R$ 3,00"),
             new Item("chantily", "Chantily (extra do Café)", "R$ 1,50"),
             new Item("suco", "Suco Natural", "R$ 1,50"),
