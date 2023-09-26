@@ -1,11 +1,12 @@
-import { Item } from "./item-do-cardapio.js"
+import { Item } from "./itemCardapio.model.js";
+
 export class Cardapio {
     constructor() {
         this.produtos = [
             new Item("cafe", "Café", "R$ 3,00"),
             new Item("chantily", "Chantily (extra do Café)", "R$ 1,50"),
-            new Item("suco", "Suco Natural", "R$ 1,50"),
-            new Item("sanduiche", "Sanduíche", "R$ 6,20"),
+            new Item("suco", "Suco Natural", "R$ 6,20"),
+            new Item("sanduiche", "Sanduíche", "R$ 6,50"),
             new Item("queijo", "Queijo (extra do Sanduiíche)", "R$ 2,00"),
             new Item("salgado", "Salgado", "R$ 7,25"),
             new Item("combo1", "1 Suco e 1 Sanduíche", "R$ 9,50"),

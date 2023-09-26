@@ -1,4 +1,4 @@
-import { CaixaDaLanchonete } from "./caixa-da-lanchonete.js";
+import { CaixaDaLanchonete } from "../views/caixa-da-lanchonete.js";
 
 describe('CaixaDaLanchonete', () => {
 

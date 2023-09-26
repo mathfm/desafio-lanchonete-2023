@@ -1,5 +1,0 @@
-class Pedido {
-    constructor(item) {
-        
-    }
-}
