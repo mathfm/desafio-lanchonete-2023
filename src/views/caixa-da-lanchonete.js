@@ -1,4 +1,4 @@
-import { registrarPedido } from "../controller/registrarPedido.js";
+import { registrarPedido } from "../controllers/registrarPedido.js";
 
 
 class CaixaDaLanchonete {
