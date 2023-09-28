@@ -1,6 +1,6 @@
-import { Cardapio } from "../models/cardapio.model.js";
-import { Pagamento } from "../models/pagamento.model.js";
-import { somaDoPedido } from "./somaDoPagamento.js";
+import { Cardapio } from "../../models/cardapio.model.js";
+import { Pagamento } from "../../models/pagamento.model.js";
+import { somaDoPedido } from "../somaDoPagamento.js";
 
 export function calcularPedido(pagamento, pedidoSemValorDosItens) {
     const cardapio = new Cardapio();
